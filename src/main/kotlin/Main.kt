@@ -1,5 +1,8 @@
 package srangeldev
 
+import srangeldev.validator.ValidatorDNI
+
 fun main() {
-    println("Hello World!")
+    val validador = ValidatorDNI()
+    println(validador.validarDniRegex("53905155D"))
 }
